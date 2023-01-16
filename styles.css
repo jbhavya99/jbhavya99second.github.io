@@ -1,0 +1,144 @@
+
+body{
+    /* all four sides are set to zero pixels */
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+h1{
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #66BFBF;
+    /* the line height under hi played an important role in my site to set the opening page look great */
+    line-height: 0.4;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color:  #11999E;
+}
+.middleContainer{
+    background-color: #eef6f6;
+    padding-bottom: 30px;
+}
+.profile{
+    padding-top: 100px;
+}
+.intro{
+    width: 40%;
+    margin: auto;
+}
+.bottomContainer{
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+}
+a{
+    color: #14a7ac;
+    font-family: 'Monsterrat', 'Sans-serif';
+    margin: 10px 20px;
+    font-size: medium;
+    text-decoration: none;
+}
+a:hover{
+    color: #eaf6f6;
+}
+.copyright{
+    font-size: 0.75rem;
+    color: #EAF6F6;
+    padding: 20px 0;
+}
+.front{
+    text-decoration: underline;
+}
+.bottomCloud{
+    /* by doing this, the bottom cloud is gonna be placed more or less randomly on the site, but ya our maountain goes in the right center position that i wanted */
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.topCloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.topContainer{
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 100px;
+}
+.MyProfileImage{
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+}
+.skill1{
+    /* height: 100px;
+    width: 100px; */
+    width: 22%;
+}
+.skill2{
+    /* height: 100px;
+    width: 100px; */
+    width: 22%;
+}
+.skill3{
+    /* height: 100px;
+    width: 100px; */
+    width: 22%;
+}
+/* .skillrow{
+    width: 50%;
+} */
+.skill-row{
+    width: 50%;
+    margin: auto;
+}
+
+.allSkillsDecription{
+    text-align: left;
+}
+hr{
+    border-style: none;
+    border-top: 5px dotted #d9e4e4;
+    width: 10%;
+    margin: 100px auto;
+}
+p{
+    color: #40514e;
+    line-height: 2;
+}
+.contactPara{
+    margin-bottom: 45px;
+}
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Monsterrat;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
